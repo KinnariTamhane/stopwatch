@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stop-watch{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #9472d0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 30px;
+}
+
+.button{
+  @apply border border-white rounded-full px-4 py-2 md:w-[100px] outline-0
+}
